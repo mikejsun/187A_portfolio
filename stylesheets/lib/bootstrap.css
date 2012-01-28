@@ -14,6 +14,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family:sansation;
 }
 h1,
 h2,
@@ -70,7 +71,8 @@ td {
   font-style: normal;
   font-size: 100%;
   line-height: 1;
-  font-family: inherit;
+  font-family:sansation;
+  /*font-family: inherit;*/
 }
 table {
   border-collapse: collapse;
@@ -394,10 +396,12 @@ p {
   font-weight: normal;
   line-height: 18px;
   margin-bottom: 9px;
+  color:#B0B0B0;
+  
 }
 p small {
   font-size: 11px;
-  color: #bfbfbf;
+  color: black;
 }
 h1,
 h2,
@@ -438,13 +442,26 @@ h6 {
   line-height: 36px;
 }
 h3 {
-  font-size: 18px;
+
+    font-size:16px;
+    font-weight:normal;
+    letter-spacing: 2px;
+    padding-bottom: 0px;
+    padding-top:10px;
+    /*text-shadow: 3px 3px 3px #FFFFFF;*/
+    text-transform: uppercase;
+    color:#181818;
 }
 h3 small {
   font-size: 14px;
+  clear: both;
+    font-weight:lighter;
+    padding-left:3px;
+    color:#383838;
 }
 h4 {
   font-size: 16px;
+  /*color:black*/;
 }
 h4 small {
   font-size: 12px;
@@ -919,11 +936,10 @@ textarea[readonly] {
   cursor: not-allowed;
 }
 .actions {
-  background: #f5f5f5;
+
   margin-top: 18px;
   margin-bottom: 18px;
   padding: 17px 20px 18px 150px;
-  border-top: 1px solid #ddd;
   -webkit-border-radius: 0 0 3px 3px;
   -moz-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
@@ -1308,29 +1324,38 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   right: 0;
   z-index: 10000;
   overflow: visible;
+  opacity:.50;
 }
+/*CONTACT*/
 .topbar a {
-  color: #bfbfbf;
+  /*color: #bfbfbf;*/
+  color:#00ff99;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  font-weight:bold; font-size:12px; text-transform:uppercase;letter-spacing:3px;
 }
-.topbar h3 a:hover, .topbar .brand:hover, .topbar ul .active > a {
+/*MIKEJIHOONSUN*/
+.topbar h3 a:hover, .topbar .brand:hover, .topbar ul .active > a { 
   background-color: #333;
   background-color: rgba(255, 255, 255, 0.05);
   color: #ffffff;
   text-decoration: none;
+  font-size:21px; text-transform:uppercase; letter-spacing:3px;
 }
+
 .topbar h3 {
   position: relative;
 }
+
+/*MICHAELJIHOONSUNHOMEPAGE*/
 .topbar h3 a, .topbar .brand {
   float: left;
   display: block;
-  padding: 8px 20px 12px;
+  padding: 11px 20px 10px;
   margin-left: -20px;
   color: #ffffff;
-  font-size: 20px;
-  font-weight: 200;
+  /*font-weight: 200;*/
   line-height: 1;
+  font-weight:lighter; letter-spacing:3px; text-transform:uppercase;font-size:21px;
 }
 .topbar p {
   margin: 0;
@@ -1338,7 +1363,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 }
 .topbar p a:hover {
   background-color: transparent;
-  color: #ffffff;
+ color: #ffffff;
 }
 .topbar form {
   float: left;
@@ -1422,12 +1447,12 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 }
 .topbar div > ul > li, .nav > li {
   display: block;
-  float: left;
+ /* float: left;*/
 }
 .topbar div > ul a, .nav a {
   display: block;
-  float: none;
-  padding: 10px 10px 11px;
+  /*float: none;*/
+  padding: 11px 0px 11px;
   line-height: 19px;
   text-decoration: none;
 }
@@ -1767,7 +1792,8 @@ a.menu:after, .dropdown-toggle:after {
   color: #404040;
 }
 .hero-unit {
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
+  background-color:white;
   margin-bottom: 30px;
   padding: 60px;
   -webkit-border-radius: 6px;
@@ -1785,20 +1811,49 @@ a.menu:after, .dropdown-toggle:after {
   font-weight: 200;
   line-height: 27px;
 }
+/*
+.hero-unit img{
+   -moz-box-shadow:    1px 1px 1px 3px #ccc;
+     -webkit-box-shadow: 1px 1px 1px 3px #ccc;
+     box-shadow:         1px 1px 1px 3px #ccc;
+}
+*/
 footer {
   margin-top: 17px;
   padding-top: 17px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid black;
+  margin-bottom:20px;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  color:black;
 }
 .page-header {
   margin-bottom: 17px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+
+
 }
 .page-header h1 {
   margin-bottom: 8px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-weight:lighter;
+  text-align:center;
+}
+.page-header h4{
+  margin-top:5px;
+  letter-spacing:3px;
+  font-size: 20px;
+  font-weight:lighter;
+  text-transform:uppercase;
+  text-align:center;
+  text-shadow: 0px 1px 1px #4d4d4d;
+        color: #222;
 }
 .btn.danger,
 .alert-message.danger,
@@ -2445,10 +2500,10 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   display: inline;
 }
 .media-grid a {
-  float: left;
+  float:right;
   padding: 4px;
-  margin: 0 0 18px 20px;
-  border: 1px solid #ddd;
+  margin: 0 0 5px 20px;
+  /*border: 1px solid #fff;*/
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -2456,12 +2511,15 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
 }
+
 .media-grid a img {
   display: block;
 }
+
 .media-grid a:hover {
-  border-color: #0069d6;
+  /*border-color: black;*/
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+  opacity:.85;
 }

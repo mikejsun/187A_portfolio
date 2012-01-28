@@ -1,0 +1,171 @@
+body{
+    background-size: auto;
+    position: relative;
+    font-family:Sansation;
+}
+
+#container{
+    width:1020px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:0
+}
+
+#header{
+    overflow-x:hidden;
+    overflow-y:hidden;
+    padding-bottom:50px;
+    padding-left:0;
+    padding-right:0;
+    padding-top:100px;
+    width:100%;
+}
+
+#logo{
+    float: left;
+    height:30px;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    margin-top:-14;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+#navigation {
+    text-align:center;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+}
+
+#navigation li{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:inline;
+}
+
+#navigation li a:link{
+    text-decoration:none;
+    color:black;
+    letter-spacing:2px;
+    font-size:15px;
+    
+}
+
+#main{
+    margin-bottom:0;
+    margin-left:2px;
+    margin-right:0;
+    margin-top:0;
+}
+
+#footer{
+    overflow-x:hidden;
+    overflow-y: hidden;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px;
+    width:100%;
+}
+
+.portfolioitem{
+    background: no-repeat scroll 0 5px transparent;
+    display: inline-block;
+    float: left;
+    height: 325px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px 10px;
+    padding-top:50px;
+    position: relative;
+    width: 300px;
+    border: 1px solid black;
+        
+}
+
+.portfolioitem img{
+    -moz-box-shadow:    1px 1px 3px 4px #ccc;
+     -webkit-box-shadow: 1px 1px 3px 4px #ccc;
+     box-shadow:         1px 1px 3px 4px #ccc;
+     
+}
+
+.portfolioitem h3{
+    float: left;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-top: 15px;
+    text-shadow: 3px 3px 3px #FFFFFF;
+    text-transform: uppercase;
+}
+.portfolioitem h4{
+    clear: both;
+    font-size:11px;
+    font-weight:lighter;
+    padding-left:3px;
+}
+
+.portfolioitem p{
+    clear: both;
+    color: #999999;
+    font: 11px/18px "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+    padding-left: 3px;
+    padding-right: 10px;
+    padding-top: 0;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.copywrite{
+    bottom:10px;
+    clear:both;
+    font-size:11px;
+    font-weight:bold;
+    letter-spacing:2px;
+    padding-bottom:50px;
+    padding-top:100px;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.section{
+    border:1px solid black;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-origin: padding-box;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    padding-bottom: 25px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+}
+
+.section h2{
+    color: #5A5A5A;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 0 0;
+}
+
+.section h3{
+    color: #BEBEBE;
+    font-size: 11px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    margin-right: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
